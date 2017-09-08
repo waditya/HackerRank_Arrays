@@ -15,8 +15,12 @@ arr_sum = [] ## 2-D - 4 x 4 array to store the sum of 16 hour glasses
 #Append four 1_D array of length 4 containing zeros to the 4 X 4 array
 for i in range(0,4,1):
     arr_sum.append([0,0,0,0])
+
+#The maximum negative summation of 7 9's is -63. So we keep max as -64
+
 max = -64
-temp = 0
+temp = 0 ##Temporary variable to store the value of an hour-glass while computing maximum element
+
 ## arr_temp = [] --- Test Array to check the values of temp variable
 
 ## Loop to store sum of hour glasses
