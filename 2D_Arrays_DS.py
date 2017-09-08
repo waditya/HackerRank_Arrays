@@ -11,6 +11,8 @@ for arr_i in range(6):
 #Code starts here
 
 arr_sum = [] ## 2-D - 4 x 4 array to store the sum of 16 hour glasses
+
+#Append four 1_D array of length 4 containing zeros to the 4 X 4 array
 for i in range(0,4,1):
     arr_sum.append([0,0,0,0])
 max = -64
