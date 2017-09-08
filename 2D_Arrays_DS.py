@@ -20,7 +20,7 @@ temp = 0
 ## arr_temp = [] --- Test Array to check the values of temp variable
 
 ## Loop to store sum of hour glasses
-
+## The positionn in summation_array i.e. arr_sum[i][j] gives the starting point Top-Left for Hour glass w.r.t input 6 x 6 input array arr 
 for i in range(0,4,1):
     for j in range(0,4,1):
         arr_sum[i][j] = arr[i][j] + arr[i][j+1] + arr[i][j+2] + arr[i+1][j+1] + arr[i+2][j] + arr[i+2][j+1] + arr[i+2][j+2]
