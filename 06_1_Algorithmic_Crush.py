@@ -1,3 +1,6 @@
+#!/bin/python3
+##[Credits] - https://www.hackerrank.com/vineet_ahirkar?hr_r=1 , https://www.hackerrank.com/challenges/crush/forum
+
 ## Accept the first line of the input
 no_of_elememts_in_array, no_of_operations = [int(n) for n in input().split(" ")]
 
